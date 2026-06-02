@@ -42,7 +42,7 @@ export default function Signup() {
               onChange={e => setEmail(e.target.value)}
               placeholder="you@college.edu"
               required
-              className="w-full border border-gray-200 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-gray-400"
+              className="w-full border border-gray-200 rounded-lg px-4 py-2 text-black focus:outline-none focus:border-gray-400"
             />
           </div>
           <div>
@@ -54,7 +54,7 @@ export default function Signup() {
               placeholder="min 6 characters"
               required
               minLength={6}
-              className="w-full border border-gray-200 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-gray-400"
+              className="w-full border border-gray-200 rounded-lg px-4 py-2 text-black focus:outline-none focus:border-gray-400"
             />
           </div>
 
